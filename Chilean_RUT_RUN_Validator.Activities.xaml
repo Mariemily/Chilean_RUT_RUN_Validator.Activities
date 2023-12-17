@@ -9,7 +9,7 @@
     <x:Null />
   </VisualBasic.Settings>
   <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
-  <sap:VirtualizedContainerService.HintSize>1234,2603</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1202,2603</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -246,6 +246,6 @@
         <InArgument x:TypeArguments="x:Boolean">[if(in_DigitoVerificador.Trim.ToUpper.Equals(out_StrDigResultante.Trim),true,false)]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message el dígito verificar es:" sap:VirtualizedContainerService.HintSize="544,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;El dígito verificador es: &quot;+out_BlnDigRut.ToString]" />
+    <ui:LogMessage DisplayName="Log Message el dígito verificar es:" sap:VirtualizedContainerService.HintSize="544,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;El dígito verificador es: &quot;+out_StrDigResultante.ToString+&quot;. Por lo que el resultado de la comparación es: &quot;+out_BlnDigRut.ToString]" />
   </Sequence>
 </Activity>

@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Chilean_RUT_RUN_Validator.Activities",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "out_BlnDigRut",
+      "DisplayName": "out_BlnDigRut",
+      "Category": null,
+      "Tooltip": "Variable Booleana que especifica si el dígito verificador entregado es correcto.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_DigitoVerificador",
+      "DisplayName": "in_DigitoVerificador",
+      "Category": null,
+      "Tooltip": "Dígito verificador ingresado.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_StrDigResultante",
+      "DisplayName": "out_StrDigResultante",
+      "Category": null,
+      "Tooltip": "Dígito Verificador resultante.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RutSinDigitoVerificador",
+      "DisplayName": "in_RutSinDigitoVerificador",
+      "Category": null,
+      "Tooltip": "Rut sin dígito verificador",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

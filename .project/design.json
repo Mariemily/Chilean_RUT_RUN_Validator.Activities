@@ -1,5 +1,24 @@
 {
-  "Tags": [],
-  "SeparateRuntimeDependencies": true,
+  "Tags": [
+    {
+      "Key": "Library"
+    },
+    {
+      "Key": "uipath"
+    },
+    {
+      "Key": "chilean"
+    },
+    {
+      "Key": "validator"
+    },
+    {
+      "Key": "rut"
+    },
+    {
+      "Key": "run"
+    }
+  ],
+  "SeparateRuntimeDependencies": false,
   "IncludeSources": true
 }
